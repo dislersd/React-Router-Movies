@@ -17,7 +17,7 @@ body {
 }
 
 .movie-card:hover {
-  background-color: rgb(231, 157, 108);
+  background-color: rgb(152, 196, 255);
 }
 
 .movie-director {
@@ -58,15 +58,19 @@ body {
   margin: 1rem auto;
 }
 .save-button {
-  position: absolute;
-  top: 25px;
-  right: 25px;
-  border: 1px solid grey;
   padding: 5px 10px;
-  background-color: lightseagreen;
+  background-color: rgb(255, 81, 81);
+  cursor: pointer;
+  width: 20%;
+  text-align: center;
+  margin: 10px auto;
+  border-radius: 100px;
+  position: relative;
+  top: -135px;
+  left: 100px;
 }
 .save-button:hover {
-  background-color: green;
+  background-color: rgb(255, 111, 111);
   color: white;
 }
 
